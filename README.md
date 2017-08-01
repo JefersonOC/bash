@@ -1,4 +1,4 @@
 # [Shell] - Bash Helper
 
-by Jeferson Cruz
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/update.sh)"
 
