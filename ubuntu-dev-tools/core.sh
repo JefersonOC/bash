@@ -7,7 +7,7 @@ sudo apt-get -f install &&
 sudo apt-get autoremove &&
 sudo apt-get -y autoclean &&
 sudo apt-get -y clean &&
-apt-get install -y  make \
+sudo apt-get install -y make \
                     build-essential \
                     software-properties-common \
                     linux-headers-$(uname -r) \
@@ -32,13 +32,6 @@ apt-get install -y  make \
                     apt-transport-https \
                     ca-certificates \
                     git \
-                    virtualbox \
-                    virtualbox-ext-pack \
-                    virtualbox-guest-additions-iso \
-                    virtualbox-guest-dkms \
-                    virtualbox-guest-source \
-                    virtualbox-guest-utils \
-                    virtualbox-guest-x11 \
                     automake \
                     autoconf \
                     pkg-config \
@@ -61,7 +54,8 @@ apt-get install -y  make \
                     exfat-fuse \
                     unrar \
                     mcelog \
-                    net-tools
+                    net-tools \
+                    p7zip-full
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
