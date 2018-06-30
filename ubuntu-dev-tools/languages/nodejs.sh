@@ -31,6 +31,5 @@ npm install -g jspm
 npm install -g gulp
 npm install -g grunt-cli
 npm install -g bower
-npm install -g phantomjs
 
-echo "Node, NPM, jspm, gulp, grunt, phantomjs and bower have been installed"
+echo "Node, NPM, jspm, gulp, grunt and bower have been installed"
