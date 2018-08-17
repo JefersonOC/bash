@@ -50,7 +50,6 @@ sudo apt-get install -y make \
                     exfat-utils \
                     exfat-fuse \
                     unrar \
-                    mcelog \
                     net-tools \
                     p7zip-full
 
