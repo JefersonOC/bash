@@ -39,10 +39,6 @@ sudo apt-get install -y make \
                     libfreetype6-dev \
                     liblcms2-dev \
                     libwebp-dev \
-                    tcl8.6-dev \
-                    tk8.6-dev \
-                    python-tk \
-                    python-dev \
                     vim \
                     curl \
                     nano \
