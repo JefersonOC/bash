@@ -10,9 +10,6 @@ sudo apt-get -y clean &&
 sudo apt-get install -y make \
                     build-essential \
                     software-properties-common \
-                    linux-headers-$(uname -r) \
-                    linux-image-extra-$(uname -r) \
-                    linux-image-extra-virtual \
                     libssl-dev \
                     libffi-dev \
                     zlib1g-dev \
