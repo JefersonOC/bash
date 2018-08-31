@@ -1,6 +1,8 @@
 #!/bin/bash
-LOG_HOME="/opt/jetty/logs"
-ZIP_HOME="/home/ec2-user/jetty_logs"
+
+LOG_HOME_MICRO="/usr/local/microservices/build/"
+LOG_HOME_VAR="/var/log/whohire/"
+ZIP_HOME="/home/ubuntu/microservices_logs"
 
 if [ ! -d $ZIP_HOME ]; then
 	echo "Creating directory $ZIP_HOME"
@@ -8,7 +10,7 @@ if [ ! -d $ZIP_HOME ]; then
 fi
 
 oldfiles(){
-	find $LOG_HOME/*.log* -mtime +10
+	find $LOG_HOME_MICRO/*.log* -mtime +10
 }
 
 compress(){
