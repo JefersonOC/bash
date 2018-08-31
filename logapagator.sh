@@ -1,7 +1,7 @@
 #!/bin/bash
 
-LOG_HOME_MICRO="/usr/local/microservices/build/"
-LOG_HOME_VAR="/var/log/whohire/"
+LOG_HOME_MICRO="/usr/local/microservices/build"
+LOG_HOME_VAR="/var/log"
 ZIP_HOME="/home/ubuntu/microservices_logs"
 
 if [ ! -d $ZIP_HOME ]; then
