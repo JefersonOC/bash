@@ -47,7 +47,8 @@ sudo apt-get install -y make \
                     exfat-fuse \
                     unrar \
                     net-tools \
-                    p7zip-full
+                    p7zip-full \
+                    clipit
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
