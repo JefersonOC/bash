@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 sudo apt install ttf-mscorefonts-installer && 
 sudo snap install slack --classic && 
 sudo snap install skype --classic && 
