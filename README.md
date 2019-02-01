@@ -6,4 +6,4 @@
 * **NodeJS**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/languages/nodejs.sh)"
 * **IDE**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/ide.sh)"
 * **Art**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/art.sh)"
-* **Stuffs**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/stuffs.sh"
+* **Stuffs**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/stuffs.sh)"
