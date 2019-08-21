@@ -15,7 +15,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # update .bashrc
-cat << 'END' >> ~/.bashrc
+# cat << 'END' >> ~/.bashrc
 
 # update .zshrc
 cat << 'END' >> ~/.zshrc
