@@ -17,6 +17,9 @@ export NVM_DIR="$HOME/.nvm"
 # update .bashrc
 cat << 'END' >> ~/.bashrc
 
+# update .zshrc
+cat << 'END' >> ~/.zshrc
+
 # nvm settings:
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
