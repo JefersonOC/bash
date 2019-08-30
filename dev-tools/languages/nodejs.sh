@@ -34,5 +34,6 @@ npm install -g jspm
 npm install -g gulp
 npm install -g grunt-cli
 npm install -g bower
+npm install http-server -g
 
 echo "Node, NPM, jspm, gulp, grunt and bower have been installed"
