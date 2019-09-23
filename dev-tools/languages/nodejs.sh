@@ -35,5 +35,6 @@ npm install -g gulp
 npm install -g grunt-cli
 npm install -g bower
 npm install http-server -g
+npm install -g @angular/cli
 
 echo "Node, NPM, jspm, gulp, grunt and bower have been installed"
