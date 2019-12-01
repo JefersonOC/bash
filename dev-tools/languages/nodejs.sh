@@ -12,4 +12,4 @@ sudo apt-get install nodejs
 npm install http-server -g
 npm install -g @angular/cli
 
-echo "Node, NPM, jspm, gulp, grunt and bower have been installed"
+echo "Node, NPM, Angular, Yarn have been installed"
