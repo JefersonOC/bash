@@ -9,6 +9,6 @@ sudo snap install postman &&
 sudo snap install gitkraken && 
 sudo snap install heroku --classic && 
 sudo apt install maven && 
-wget https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133895-Linux_amd64.run -O virtualbox.run &&
+wget https://download.virtualbox.org/virtualbox/6.0.16/VirtualBox-6.0.16-135674-Linux_amd64.run -O virtualbox.run &&
 chmod +x virtualbox.run &&
 sudo ./virtualbox.run
