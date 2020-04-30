@@ -10,6 +10,6 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
 
 npm install http-server -g
-npm install -g @angular/cli@8.3.24
+npm install -g @angular/cli
 
 echo "Node, NPM, Angular, Yarn have been installed"
