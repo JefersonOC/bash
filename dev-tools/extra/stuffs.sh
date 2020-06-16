@@ -5,7 +5,7 @@ sudo rm google-chrome-stable_current_amd64.deb &&
 sudo apt install ttf-mscorefonts-installer && 
 sudo snap install htop && 
 sudo apt install httpie && 
-sudo snap install insomnia && 
 sudo snap install gitkraken && 
 sudo snap install heroku --classic && 
+sudo snap install postman &&
 sudo apt install maven
