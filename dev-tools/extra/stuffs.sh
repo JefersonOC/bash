@@ -9,4 +9,8 @@ flatpak install flathub org.videolan.VLC &&
 flatpak install flathub com.valvesoftware.Steam &&
 flatpak install flathub com.play0ad.zeroad && 
 flatpak install flathub com.uploadedlobster.peek && 
-flatpak install flathub com.slack.Slack
+flatpak install flathub com.slack.Slack && 
+flatpak install flathub com.anydesk.Anydesk && 
+flatpak install flathub com.wps.Office && 
+flatpak install flathub org.filezillaproject.Filezilla && 
+flatpak install flathub com.notepadqq.Notepadqq
