@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-sudo snap install android-studio --classic && 
-sudo snap install intellij-idea-community --classic && 
-sudo snap install code --classic
+flatpak install flathub com.google.AndroidStudio && 
+flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community && 
+flatpak install flathub com.visualstudio.code
