@@ -4,4 +4,7 @@ sudo apt-get install -y -f &&
 sudo rm google-chrome-stable_current_amd64.deb && 
 sudo apt install ttf-mscorefonts-installer && 
 flatpak install flathub com.axosoft.GitKraken && 
-flatpak install flathub com.getpostman.Postman
+flatpak install flathub com.getpostman.Postman &&
+flatpak install flathub org.videolan.VLC &&
+flatpak install flathub com.valvesoftware.Steam &&
+flatpak install flathub com.uploadedlobster.peek
