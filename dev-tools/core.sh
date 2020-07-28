@@ -48,8 +48,7 @@ sudo apt-get install -y make \
                     unrar \
                     net-tools \
                     p7zip-full \
-                    clipit \
-                    snapd
+                    clipit
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
