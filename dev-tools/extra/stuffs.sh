@@ -8,4 +8,5 @@ flatpak install flathub com.getpostman.Postman &&
 flatpak install flathub org.videolan.VLC &&
 flatpak install flathub com.valvesoftware.Steam &&
 flatpak install flathub com.play0ad.zeroad && 
-flatpak install flathub com.uploadedlobster.peek
+flatpak install flathub com.uploadedlobster.peek && 
+flatpak install flathub com.slack.Slack
