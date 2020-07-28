@@ -13,4 +13,5 @@ flatpak install flathub com.slack.Slack &&
 flatpak install flathub com.anydesk.Anydesk && 
 flatpak install flathub com.wps.Office && 
 flatpak install flathub org.filezillaproject.Filezilla && 
-flatpak install flathub com.notepadqq.Notepadqq
+flatpak install flathub com.notepadqq.Notepadqq && 
+flatpak install flathub com.dropbox.Client
