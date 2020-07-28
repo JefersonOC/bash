@@ -2,7 +2,7 @@
 
 * **Update**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/update.sh)"
 * **Core**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/core.sh)"
-* **ZHS**: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+* **ZSH**: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 * **Java**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/languages/java.sh)"
 * **NodeJS**: sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/languages/nodejs.sh)"
 * **IDE**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/ide.sh)"
