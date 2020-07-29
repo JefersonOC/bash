@@ -1,3 +1,3 @@
-flatpak install flathub org.blender.Blender && 
-flatpak install flathub org.inkscape.Inkscape &&
-flatpak install flathub org.mypaint.MyPaint
+sudo snap install blender --classic && 
+sudo snap install inkscape &&
+sudo apt install mypaint
