@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing core development libraries (a lot of stuff :P)..."
+sudo rm /etc/apt/preferences.d/nosnap.pref &&
 sudo apt-get update &&
 sudo apt-get -y upgrade &&
 sudo apt-get -f install &&
@@ -49,7 +50,8 @@ sudo apt-get install -y make \
                     net-tools \
                     p7zip-full \
                     clipit \
-                    zsh
+                    zsh \
+                    snapd
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
