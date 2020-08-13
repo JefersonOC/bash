@@ -51,7 +51,8 @@ sudo apt-get install -y make \
                     p7zip-full \
                     clipit \
                     zsh \
-                    snapd
+                    snapd \
+                    tilix
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
