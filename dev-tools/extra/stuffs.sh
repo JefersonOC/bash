@@ -7,4 +7,5 @@ sudo snap install gitkraken --classic &&
 sudo snap install postman &&
 sudo snap install vlc &&
 sudo snap install slack --classic && 
-sudo apt install filezilla
+sudo apt install filezilla &&
+sudo snap install dbeaver-ce
