@@ -8,4 +8,6 @@ sudo snap install postman &&
 sudo snap install vlc &&
 sudo apt install filezilla &&
 sudo snap install dbeaver-ce && 
-sudo snap install redis-desktop-manager
+sudo snap install redis-desktop-manager && 
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
