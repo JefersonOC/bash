@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing core development libraries (a lot of stuff :P)..."
-sudo rm /etc/apt/preferences.d/nosnap.pref && 
+#sudo rm /etc/apt/preferences.d/nosnap.pref && 
 sudo apt-get update &&
 sudo apt-get -y upgrade &&
 sudo apt-get -f install &&
