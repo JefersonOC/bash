@@ -11,6 +11,11 @@
 * **Art**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/art.sh)"
 * **Stuffs**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/stuffs.sh)"
 
+## Ledger Live
+```
+wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+```
+
 ## Docker without root
 ```
 $ sudo addgroup --system docker
