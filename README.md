@@ -11,6 +11,11 @@
 * **Art**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/art.sh)"
 * **Stuffs**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/dev-tools/extra/stuffs.sh)"
 
+## Linux Mint
+```
+sudo rm /etc/apt/preferences.d/nosnap.pref
+```
+
 ## Ledger Live
 ```
 wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
