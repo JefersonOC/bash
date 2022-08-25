@@ -44,8 +44,6 @@ sudo apt-get install -y make \
                     curl \
                     nano \
                     members \
-                    exfat-utils \
-                    exfat-fuse \
                     unrar \
                     net-tools \
                     p7zip-full \
