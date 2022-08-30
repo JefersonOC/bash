@@ -46,7 +46,6 @@ sudo apt-get install -y make \
                     unrar \
                     net-tools \
                     p7zip-full \
-                    clipit \
                     zsh \
                     snapd \
                     tilix
