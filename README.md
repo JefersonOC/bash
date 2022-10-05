@@ -26,8 +26,6 @@ wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_ud
 $ sudo addgroup --system docker
 $ sudo adduser $USER docker
 $ newgrp docker
-$ sudo snap install docker
+$ sudo apt install docker.io
 ```
 
-## Themes
-```https://github.com/PapirusDevelopmentTeam/papirus-icon-theme```
