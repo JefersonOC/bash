@@ -2,7 +2,6 @@ sudo snap install simplenote &&
 sudo apt install ttf-mscorefonts-installer && 
 sudo snap install gitkraken --classic && 
 sudo snap install postman &&
-sudo snap install notepadqq && 
 sudo snap install vlc &&
 sudo snap install telegram-desktop && 
 sudo apt install filezilla &&
