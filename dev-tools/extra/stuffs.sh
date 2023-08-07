@@ -1,4 +1,3 @@
-sudo snap install simplenote && 
 sudo apt install ttf-mscorefonts-installer && 
 sudo snap install gitkraken --classic && 
 sudo snap install postman &&
