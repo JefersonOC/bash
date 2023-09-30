@@ -29,3 +29,7 @@ $ newgrp docker
 $ sudo apt install docker.io
 ```
 
+## Metatrader 5
+```
+wget https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5ubuntu.sh ; chmod +x mt5ubuntu.sh ; ./mt5ubuntu.sh
+```
