@@ -1,2 +1,1 @@
-sudo snap install blender --classic && 
-sudo apt install mypaint
+sudo snap install blender --classic
