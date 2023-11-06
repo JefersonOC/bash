@@ -48,7 +48,8 @@ sudo apt-get install -y make \
                     p7zip-full \
                     zsh \
                     snapd \
-                    tilix
+                    tilix \
+                    ffmpeg
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
