@@ -5,6 +5,7 @@ sudo snap install vlc &&
 sudo snap install telegram-desktop && 
 sudo apt install filezilla &&
 sudo snap install dbeaver-ce &&
+sudo snap install tradingview && 
 sudo apt install docker.io &&
 sudo snap install steam --edge && 
 sudo snap install 0ad
