@@ -1,1 +1,1 @@
-sudo snap install blender --classic
+flatpak install flathub org.blender.Blender
