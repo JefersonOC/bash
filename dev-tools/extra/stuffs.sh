@@ -8,5 +8,6 @@ flatpak install flathub io.podman_desktop.PodmanDesktop &&
 flatpak install flathub com.wps.Office &&
 flatpak install flathub com.obsproject.Studio &&
 flatpak install flathub tv.kodi.Kodi && 
+flatpak install flathub org.duckstation.DuckStation && 
 sudo apt install ttf-mscorefonts-installer && 
 sudo apt install docker.io 
