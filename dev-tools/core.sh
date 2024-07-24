@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing core development libraries (a lot of stuff :P)..."
+sudo apt install flatpak && 
 flatpak install flathub com.google.Chrome && 
 sudo apt-get install -y make \
                     build-essential \
