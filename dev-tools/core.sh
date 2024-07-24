@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing core development libraries (a lot of stuff :P)..."
-sudo apt-get update &&
-sudo apt-get -y upgrade &&
-sudo apt-get -f install &&
-sudo apt-get autoremove &&
-sudo apt-get -y autoclean &&
-sudo apt-get -y clean &&
+flatpak install flathub com.google.Chrome && 
 sudo apt-get install -y make \
                     build-essential \
                     software-properties-common \
