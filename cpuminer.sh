@@ -6,4 +6,4 @@ sudo apt-get install git -y &&
 git clone https://github.com/tpruvot/cpuminer-multi &&
 cd cpuminer-multi &&
 sudo ./build.sh
-./cpuminer -o stratum+tcp://solo.ckpool.org:3333 -u 1KTkE4XxG6H83SbnzS4feVNv2DfxvUzimv -p x -a sha256d
+./cpuminer -o stratum+tcp://solo.ckpool.org:3333 -u 1KTkE4XxG6H83SbnzS4feVNv2DfxvUzimv.worker1 -p x -a sha256d
