@@ -17,7 +17,6 @@ sudo apt-get install -y make \
                     libncursesw5-dev \
                     unixodbc \
                     unixodbc-dev \
-                    libaio1 \
                     freetds-bin \
                     freetds-dev \
                     tdsodbc \
