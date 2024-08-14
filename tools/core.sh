@@ -2,6 +2,7 @@
 
 echo "Installing core development libraries (a lot of stuff :P)..."
 sudo apt install flatpak && 
+flatpak remote-add --if-not-exists flathub "https://flathub.org/repo/flathub.flatpakrepo" && 
 flatpak install flathub com.google.Chrome && 
 sudo apt-get install -y make \
                     build-essential \
