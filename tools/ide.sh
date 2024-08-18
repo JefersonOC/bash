@@ -2,5 +2,5 @@
 
 flatpak install flathub com.google.AndroidStudio && 
 flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community && 
-flatpak install flathub com.visualstudio.code && 
+sudo snap install code --classic && 
 sudo apt install maven
