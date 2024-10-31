@@ -11,16 +11,14 @@
 * **Art**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/tools/extra/art.sh)"
 * **Stuffs**: sh -c "$(curl -fsSL https://raw.githubusercontent.com/JefersonOC/bash/master/tools/extra/stuffs.sh)"
 
-## Linux Mint
+## Update All Python Packages
 ```
-sudo rm /etc/apt/preferences.d/nosnap.pref
+pip3 list -o | cut -f1 -d' ' | tr " " "\n" | awk '{if(NR>=3)print}' | cut -d' ' -f1 | xargs -n1 pip3 install -U 
 ```
-
 ## Ledger Live
 ```
 wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
 ```
-
 ## Docker without root
 ```
 $ sudo addgroup --system docker
@@ -28,7 +26,6 @@ $ sudo adduser $USER docker
 $ newgrp docker
 $ sudo apt install docker.io
 ```
-
 ## Metatrader 5
 ```
 wget https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5ubuntu.sh ; chmod +x mt5ubuntu.sh ; ./mt5ubuntu.sh
