@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-set -e # Exit immediately if a command exits with a non-zero status
-set -o pipefail # Exit if any command in a pipeline fails
-
 echo "Installing Node.js and common frontend development tools..."
 
 # Update package list and install prerequisites
