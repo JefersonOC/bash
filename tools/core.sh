@@ -44,10 +44,6 @@ sudo apt-get install -y snapd \
                         tilix \
                         ffmpeg
 
-# Install Snap packages
-sudo apt install google-chrome &&
-sudo apt install opera &&
-
 # Enable syntax highlighting for nano
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 
