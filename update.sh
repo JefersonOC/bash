@@ -1,4 +1,5 @@
 echo "** UP YOUR SYSTEM ** " &&
+sudo apt install flatpak && 
 flatpak update && 
 sudo apt-get update &&
 sudo apt-get -y upgrade &&
